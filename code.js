@@ -11,8 +11,8 @@ function divideAndConquerSum(a) {
         var middle2 = 2 * middle1;
         
         var Left = a.slice(0, middle1);
-        var Middle = a.slice(middle1, middle2);
-        var Right = a.slice(middle2);
+        var Middle = a.slice(middle1, middle2 + 1);
+        var Right = a.slice(middle2 + 1);
 
         var Total = divideAndConquerSum(Left) + divideAndConquerSum(Middle) + divideAndConquerSum(Right);
         
