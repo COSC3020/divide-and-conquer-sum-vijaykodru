@@ -21,5 +21,8 @@ function divideAndConquerSum(a) {
 }
 
 
-var result = divideAndConquerSum([-3,4,9,1,56,-23,7]);
-console.log("Result: " + result);
+/* Reference Used:
+
+Geek for Geeks
+Khan Academey
+*/
