@@ -58,3 +58,4 @@ This implies that T(n) = n for the above recurrence relation.
 
 Therefore the runtime of my algorithm is $\Theta$(n)
 
+Reference: divide-and-conquer-sum-swilso59-1
